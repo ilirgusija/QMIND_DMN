@@ -1,0 +1,1 @@
+python test.py --model_path [PATH_TO_TRAINED_MODEL]
