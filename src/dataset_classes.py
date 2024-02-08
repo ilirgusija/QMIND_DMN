@@ -3,7 +3,7 @@ from torch.utils.data import Dataset
 import requests
 import numpy as np
 
-class dataset(Dataset):
+class Financial_Dataset(Dataset):
     def __init__(self, api_key, symbol, interval='5min'):
         self.api_key = api_key
         self.symbol = symbol

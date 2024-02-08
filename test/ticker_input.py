@@ -1,4 +1,4 @@
-from dataset_classes import dataset
+from src.dataset_classes import dataset
 
 
 api_key = 'KVWI7K2RP426FT5P'

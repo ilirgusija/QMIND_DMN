@@ -1,6 +1,6 @@
 import argparse
 import torch
-from model import DMNModel
+from src.model import DMNModel
 
 parser = argparse.ArgumentParser(description='Test the DMN model.')
 parser.add_argument('--model_path', type=str, required=True)
