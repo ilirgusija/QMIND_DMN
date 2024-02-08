@@ -1,0 +1,1 @@
+python train.py --input_size [INPUT_SIZE] --lstm_hidden_size [HIDDEN_SIZE] --output_size [OUTPUT_SIZE] --lstm_layers [NUM_LAYERS] --dropout_rate [DROPOUT_RATE] --learning_rate [LEARNING_RATE]
