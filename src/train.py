@@ -1,7 +1,7 @@
 import argparse
 import torch
 import torch.optim as optim
-from model import DMNModel
+from src.model import DMNModel
 import matplotlib.pyplot as plt
 
 parser = argparse.ArgumentParser(description='Train the DMN model.')
