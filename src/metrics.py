@@ -1,5 +1,6 @@
 import numpy as np
 
+# TODO Redo this all in PyTorch
 def sharpe_ratio(returns, risk_free_rate):
     """
     Calculate the Sharpe Ratio.

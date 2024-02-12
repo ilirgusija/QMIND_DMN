@@ -10,11 +10,11 @@ class DMNModel(nn.Module):
         self.lstm = nn.LSTM(input_size, lstm_hidden_size, num_layers=lstm_layers, batch_first=True, dropout=dropout_rate)
         self.fc = nn.Linear(lstm_hidden_size, output_size)
         self.tanh = nn.Tanh()
-        self.kalman = KalmanFilter(input_size)  # Placeholder for actual implementation
+        # self.kalman = KalmanFilter(input_size)  # Placeholder for actual implementation
 
     def forward(self, x):
-        # Apply Kalman filter preprocessing
-        x = self.kalman.filter(x)
+        # # Apply Kalman filter preprocessing
+        # x = self.kalman.filter(x)
         # Process sequence data through LSTM
         lstm_out, _ = self.lstm(x)
         # Map LSTM output to trading positions
