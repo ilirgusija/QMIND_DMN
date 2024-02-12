@@ -1,5 +1,4 @@
 import torch
-import numpy as np
 
 # Function to calculate the Simple Moving Average (SMA)
 def simple_moving_average(data, window_size):
