@@ -4,7 +4,7 @@ import requests
 import numpy as np
 
 class dataset(Dataset):
-    def __init__(self, api_key, symbol, interval='5min'):
+    def __init__(self, api_key, symbol, interval):
         self.api_key = api_key
         self.symbol = symbol
         self.interval = interval
